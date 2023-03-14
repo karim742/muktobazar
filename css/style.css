@@ -1,0 +1,69 @@
+ /* web bangla font link  */
+@import url('https://fonts.maateen.me/bangla/font.css');  /* font-family: 'Bangla', sans-serif; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bangla', sans-serif;
+}
+
+#navmenu {
+  font-size: 20px;
+}
+
+@media (max-width:576px) {
+  #scarch {
+    display: none !important;
+  }
+}
+
+@media (max-width:768px) {
+  #navmenu {
+    font-size: 20px;
+    background: #e9e9e954;
+    padding: 10px 20px;
+  }
+  #useIcon {
+    font-size: 20px;
+    background: #e9e9e954;
+    padding: 10px 10px;
+  }
+}
+
+#catagoryDropdown {
+  top: 6px !important;
+  left: -16px !important;
+  border-radius: 0px;
+  width: 100%;
+}
+
+/* swiper slider css  */
+
+.swiper-wrapper {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.swiper-wrapper .swiper-slide {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #e8e8e8;
+  transition: all 0.6s ease;
+}
+
+.swiper-wrapper .swiper-slide .main-img {
+  height: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  transition: all 1s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background: #198754;
+}
