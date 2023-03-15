@@ -45,7 +45,7 @@
           <span><i class="fa-solid fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="mynavbar">
-          <ul id="navmenu" class="navbar-nav me-auto">
+          <ul id="navmenu" class="navbar-nav me-auto fs-3">
             <li class="nav-item me-2">
               <a href="#" class="nav-link active">হোম</a>
             </li>
@@ -65,7 +65,7 @@
               <a href="#" class="nav-link">যোগাযোগ</a>
             </li>
           </ul>
-          <div id="useIcon" class="d-flex text-muted">
+          <div id="useIcon" class="d-flex text-muted fs-3">
             <div class="dropdown">
               <span class="ms-3 ms-md-0" style="cursor: pointer;" data-bs-toggle="dropdown"><i
                   class="fa-solid fa-users"></i></span>
@@ -107,11 +107,13 @@
       <div class="row">
         <div class="col-6 col-md-3 col-sm-4">
           <div class="bg-success text-white p-2 px-3 dropdown" style="cursor: pointer;">
-            <div data-bs-toggle="dropdown" class="d-flex justify-content-between">
-              <div><i class="fa-solid fa-list-check"></i><span class="ms-2">ক্যাটাগরি</span></div>
+            <div data-bs-toggle="dropdown" class="d-flex justify-content-between fs-5">
+              <div><i class="fa-solid fa-list-check"></i>
+                <span class="ms-2">ক্যাটাগরি</span>
+              </div>
               <div><i class="fa-solid fa-angle-down"></i></div>
             </div>
-            <ul class="dropdown-menu" id="catagoryDropdown">
+            <ul class="dropdown-menu fs-5" id="catagoryDropdown">
               <li><a class="dropdown-item" href="#">ফল ফলাদি</a></li>
               <li><a class="dropdown-item" href="#">তরল পানীয়</a></li>
               <li><a class="dropdown-item" href="#">খাটি মধু</a></li>
@@ -124,12 +126,12 @@
         <div id="scarch" class="col-0 col-md-7 col-sm-5">
           <div class="input-group">
             <input type="scarch" class="form-control shadow-none" placeholder="Search">
-            <button class="btn btn-success" type="submit">খুঁজুন</button>
+            <button class="btn btn-success fs-5" type="submit">খুঁজুন</button>
           </div>
         </div>
           <div class="col-6 col-md-2 col-sm-3">
             <!-- <div style="width: 100%;"> -->
-              <a href="tel:+8801791988679" class="btn btn-danger rounded-0" style="display: block;">কল করুন</a>
+              <a href="tel:+8801791988679" class="btn btn-danger rounded-0 fs-5" style="display: block;">কল করুন</a>
             <!-- </div> -->
           </div>
       </div>
@@ -139,7 +141,7 @@
 
   <!-- carousel html start  -->
   <section>
-    <div class="container-fluid mt-4">
+    <div class="container-fluid mt-4 mb-4">
       <!-- Slider main container -->
       <div class="swiper mySwiper">
         <!-- Additional required wrapper -->
@@ -166,6 +168,42 @@
   </section>
   <!-- carousel html end  -->
 
+  <!-- jumbotron html code start  -->
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="bgImage1 d-flex justify-content-end align-items-end mb-3">
+            <div class="bgImgContentWrap1">
+              <div class="bgImageText text-white">
+                <h4 class="text-danger">অরজিনাল মধু</h4>
+                <h2 class="h2 text-info">১০০% অর্গানিক</h2>
+                <h4 class="text-warning">স্বাস্থ্যকর পুষ্টি</h4>
+              </div>
+              <div class="bgImageBtn">
+                <a href="#" class="btn btn-success rounded-pills shadow-none fs-5">এখনই কিনুন</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="bgImage2 d-flex justify-content-end align-items-end me-1">
+            <div class="bgImgContentWrap2">
+              <div class="bgImageText text-white">
+                <h4 class="text-danger">ফসলি তরমুজ</h4>
+                <h2 class="h2 text-info">১০০% মিষ্টি</h2>
+                <h4 class="text-warning">মজা নাকি এমনেই খাই 😆</h4>
+              </div>
+              <div class="bgImageBtn">
+                <a href="#" class="btn btn-success rounded-pills shadow-none fs-5">এখনই কিনুন</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- jumbotron html code end -->
 
 
 
@@ -173,19 +211,19 @@
   <!-- swiper js script  -->
     <script src="./Assets/package/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
-<script>
+    <script>
 
-let swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop:true,
-    grabCursor: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    }
-})
-</script>
+      let swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop:true,
+          grabCursor: true,
+          pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+          }
+      })
+    </script>
 </body>
 
 </html>
